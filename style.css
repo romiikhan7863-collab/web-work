@@ -1,18 +1,77 @@
-.up-main{
-    display: flex;
-    gap: 300px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.button{
-    background-color: gold;
-    border-radius: 50px;
-    border: none;
-    padding: 30px;
-}
-.sub-div {
+
+body {
+    background: linear-gradient(135deg, #00aaff, #5b6cff);
+    min-height: 100vh;
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
     color: white;
-    background-color: black;
-    margin-right: 400px;
-    padding-top: 40px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.main h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    color: #333;
+    width: 320px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.main h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #1dd1a1;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #10ac84;
 }
